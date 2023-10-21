@@ -1,12 +1,26 @@
-.body{
-    background-color: rgb(253, 200, 228);
-
+body{
+    background-color: rgb(200, 221, 253);
 }
 
-.h1 {
+h1 {
     color: rgb(78, 135, 92);
     font: "Times New Roman", Times, serif;
     font-size: 40px;
-    background-color: rgb(245, 172, 219);
+    padding: 30px;
+    text-align: center;
 }
 
+section {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+div {
+    column-count: 1;
+    border-style: solid;
+    margin: 10px;
+    padding: 30px;
+  }
+
+
+  
